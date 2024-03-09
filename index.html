@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- 1. Thay đổi tiêu đề của website -->
+	<title>bngoc</title>
+	<link rel="shortcut icon" href="./img/heart.png" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
+	<link rel="stylesheet" href="1.css">
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row mt-5 main">
+			<div class="col-12 text-center">
+
+				<!-- 2. Thay đổi cái này nếu muốn -->
+				<div class="firstclk text-center">Nhấn vào đâyy</div>
+
+
+				<div class="drawHeart mt-4">
+					<svg id="Layer_1" class="heart" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 1364 277.28">
+						<defs>
+							<style>
+								.cls-a {
+									fill: none;
+									stroke: #ea4335;
+									stroke-miterlimit: 10;
+								}
+
+								.cls-b {
+									fill: none;
+									stroke: #ea4335;
+									stroke-miterlimit: 10;
+								}
+
+								.cls-2 {
+									fill: #ed5956;
+								}
+
+								.cls-3 {
+									fill: #ea4335;
+								}
+							</style>
+						</defs>
+						<path id="tim" class="cls-a"
+							d="M685.11,222.53,588.67,119.89a74,74,0,0,1-20.38-49.81c-.55-59.75,72.35-84.8,118.8-28.4C747-34.6,826.25,34.44,801.72,94.45a63.52,63.52,0,0,1-13,19.73Z"
+							transform="translate(-2.5 -6.47)" />
+						<polyline class="cls-b"
+							points="1364 216.05 1281 216.05 1271 170.05 1241 274.05 1214 118.05 1183 262.05 1174 216.05 684 216.05 195 216.05 186 263.05 155 119.05 128 275.05 98 171.05 88 216.05 0 216.05" />
+						<g id="_timmau_" class="timmau" data-name="&lt;timmau&gt;">
+							<path class="cls-2"
+								d="M802.5,93.92a64.12,64.12,0,0,1-13.17,20L686,222v-182c.17.2.34.39.5.59C747.08-36.66,827.33,33.2,802.5,93.92Z"
+								transform="translate(-2.5 -6.47)" />
+							<path class="cls-3"
+								d="M569.5,93.92a64.12,64.12,0,0,0,13.17,20L686,222v-182c-.17.2-.34.39-.5.59C624.92-36.66,544.67,33.2,569.5,93.92Z"
+								transform="translate(-2.5 -6.47)" />
+						</g>
+					</svg>
+				</div>
+
+				<div class="Description mt-5 text-center">
+					<div class="sup btn btn-outline-danger" data-toggle="modal" data-target="#myModal"></div>
+					<div class="modal fade" id="myModal">
+						<div class="modal-dialog">
+							<div class="modal-content">
+
+								<div class="modal-header">
+									<p class="modal-title text-danger"></p>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+
+								<div class="modal-body text-danger"></div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Nhấn để tắt nha bé</button>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="layerMask">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<!-- Đây là chổ hiển thị đoạn chữ "Hey crush I love you" -->
+					<!-- Nếu các bạn muốn thay đổi nó làm theo các bước dưới -->
+					<!-- 1. xóa đoạn <svg> </svg> bên dưới đi (cả khỏi svg luôn nha, mình có note bên dưới đó) -->
+					<!-- 2. Vào trang https://maketext.io/ nhập text bạn muốn đồi chọn style và download svg -->
+					<!-- 3. Mở file svg vừa tạo và tải về copy và dán toàn bộ nôi dung bên dưới ghi chú này -->
+					<!-- 4. Thêm đoạn này vào trong thẻ svg "id="crush" class="mt-4 crush" data-name="Layer 1"" -->
+					<!-- Sau khi làm xong thì code sẽ được giống như thế này
+					<svg id="crush" class="mt-4 crush" data-name="Layer 1">
+						........................................
+						........................................
+					</svg> -->
+
+					<!-- Bắt đầu phần svg (Xóa từ đây)-->
+					<svg "id="crush" class="mt-4 crush" data-name="Layer 1"" xmlns="http://www.w3.org/2000/svg" viewBox="27.097503662109375 14.600000000000001 445.80499267578125 120.8" style="background: rgba(0, 0, 0, 0);" preserveAspectRatio="xMidYMid"><defs><filter id="editing-extrude-glow"><feFlood flood-color="#333333" result="flood-1"></feFlood><feMorphology operator="erode" radius="1" in="SourceAlpha" result="erode"></feMorphology><feComposite operator="in" in="flood-1" in2="erode" result="comp1"></feComposite><feConvolveMatrix order="3,3" divisor="1" in="comp1" result="convolve" kernelMatrix="0 0 0 1 1 1 0 0 0"></feConvolveMatrix><feOffset dx="-3" dy="0" in="convolve" result="extrude"></feOffset><feComposite operator="in" in="flood-1" in2="extrude" result="comp-extrude"></feComposite><feFlood flood-color="#000000" result="flood-2"></feFlood><feComposite operator="in" in="flood-2" in2="SourceAlpha" result="comp2"></feComposite><feMorphology operator="dilate" radius="1" in="comp2" result="dilate"></feMorphology><feOffset dx="-4.5" dy="0" in="dilate" result="offset"></feOffset><feGaussianBlur in="offset" stdDeviation="5.8" result="blur"></feGaussianBlur><feComponentTransfer in="blur" result="shadow"><feFuncA type="linear" slope="0.8" intercept="-0.2"></feFuncA></feComponentTransfer><feMerge><feMergeNode in="shadow"></feMergeNode><feMergeNode in="comp-extrude"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g filter="url(#editing-extrude-glow)"><g transform="translate(92.53602600097656, 105.97500038146973)"><path d="M7.17 0L10.88-18.82L10.88-18.82Q9.02-36.16 2.50-39.87L2.50-39.87L2.50-39.87Q3.84-41.54 6.02-42.46L6.02-42.46L6.02-42.46Q8.19-43.39 10.82-43.39L10.82-43.39L10.82-43.39Q13.44-43.39 15.42-42.46L15.42-42.46L15.42-42.46Q17.41-41.54 18.69-39.55L18.69-39.55L18.69-39.55Q21.12-35.78 21.12-26.75L21.12-26.75L21.12-22.14L21.12-22.14Q24.96-33.41 28.80-38.27L28.80-38.27L28.80-38.27Q32.70-43.26 37.57-43.26L37.57-43.26L37.57-43.26Q39.49-43.26 40.77-42.27L40.77-42.27L40.77-42.27Q42.05-41.28 42.69-39.81L42.69-39.81L42.69-39.81Q37.76-37.63 33.02-31.36L33.02-31.36L33.02-31.36Q28.29-25.09 25.22-16.32L25.22-16.32L21.44 0L7.17 0ZM62.02-10.82L62.02-10.82L62.02-10.82Q63.62-9.73 63.62-7.33L63.62-7.33L63.62-7.33Q63.62-4.93 62.40-3.39L62.40-3.39L62.40-3.39Q61.18-1.86 59.20-0.83L59.20-0.83L59.20-0.83Q55.10 1.28 50.69 1.28L50.69 1.28L50.69 1.28Q46.27 1.28 43.68 0.32L43.68 0.32L43.68 0.32Q41.09-0.64 39.36-2.43L39.36-2.43L39.36-2.43Q35.97-5.82 35.97-12.03L35.97-12.03L35.97-12.03Q35.97-21.70 41.22-27.58L41.22-27.58L41.22-27.58Q46.85-33.92 56.64-33.92L56.64-33.92L56.64-33.92Q62.72-33.92 65.73-31.36L65.73-31.36L65.73-31.36Q67.97-29.44 67.97-26.30L67.97-26.30L67.97-26.30Q67.97-15.04 48.51-15.04L48.51-15.04L48.51-15.04Q48.26-13.38 48.26-11.97L48.26-11.97L48.26-11.97Q48.26-9.02 49.57-7.90L49.57-7.90L49.57-7.90Q50.88-6.78 53.31-6.78L53.31-6.78L53.31-6.78Q55.74-6.78 58.34-7.90L58.34-7.90L58.34-7.90Q60.93-9.02 62.02-10.82ZM48.96-17.79L48.96-17.79L48.96-17.79Q53.50-17.79 56.13-20.61L56.13-20.61L56.13-20.61Q58.75-23.30 58.75-27.58L58.75-27.58L58.75-27.58Q58.75-29.06 58.21-29.86L58.21-29.86L58.21-29.86Q57.66-30.66 56.58-30.66L56.58-30.66L56.58-30.66Q55.49-30.66 54.56-30.24L54.56-30.24L54.56-30.24Q53.63-29.82 52.67-28.42L52.67-28.42L52.67-28.42Q50.30-25.22 48.96-17.79ZM47.81-36.86L45.70-40.83L58.18-49.15L67.97-40.77L64.77-36.86L57.28-41.47L47.81-36.86ZM90.69-2.69L90.69-2.69L90.69-2.69Q87.62 1.28 80 1.28L80 1.28L80 1.28Q76.03 1.28 73.15-1.12L73.15-1.12L73.15-1.12Q70.27-3.52 70.27-6.98L70.27-6.98L70.27-6.98Q70.27-8.90 70.46-9.86L70.46-9.86L74.75-32.64L87.74-33.92L83.07-9.22L83.07-9.22Q82.82-7.81 82.82-6.98L82.82-6.98L82.82-6.98Q82.82-3.26 85.06-3.26L85.06-3.26L85.06-3.26Q87.55-3.26 89.34-6.66L89.34-6.66L89.34-6.66Q89.92-7.74 90.18-9.15L90.18-9.15L94.72-32.64L107.33-33.92L102.59-8.96L102.59-8.96Q102.40-8 102.40-6.98L102.40-6.98L102.40-6.98Q102.40-5.95 102.98-4.83L102.98-4.83L102.98-4.83Q103.55-3.71 105.41-3.46L105.41-3.46L105.41-3.46Q105.02-1.92 103.68-0.90L103.68-0.90L103.68-0.90Q100.86 1.28 97.82 1.28L97.82 1.28L97.82 1.28Q94.78 1.28 92.99 0.19L92.99 0.19L92.99 0.19Q91.20-0.90 90.69-2.69ZM123.33-0.32L123.33-0.32L131.39-42.24L131.39-42.24Q138.94-42.88 143.81-42.88L143.81-42.88L143.81-42.88Q148.67-42.88 151.81-42.46L151.81-42.46L151.81-42.46Q154.94-42.05 157.06-40.96L157.06-40.96L157.06-40.96Q161.28-38.91 161.28-33.28L161.28-33.28L161.28-33.28Q161.28-30.02 158.46-27.26L158.46-27.26L158.46-27.26Q155.84-24.77 152.96-24.19L152.96-24.19L152.96-24.19Q156.03-23.68 158.21-21.38L158.21-21.38L158.21-21.38Q160.51-18.94 160.51-15.17L160.51-15.17L160.51-15.17Q160.51-7.87 155.07-3.62L155.07-3.62L155.07-3.62Q149.63 0.64 138.94 0.64L138.94 0.64L138.94 0.64Q131.58 0.64 123.33-0.32ZM140.74-20.61L137.54-4.03L137.54-4.03Q138.11-3.97 138.24-3.97L138.24-3.97L138.82-3.97L138.82-3.97Q144.06-3.97 146.30-7.42L146.30-7.42L146.30-7.42Q147.97-10.11 147.97-15.04L147.97-15.04L147.97-15.04Q147.97-17.66 146.27-19.07L146.27-19.07L146.27-19.07Q144.58-20.48 140.74-20.61L140.74-20.61ZM150.46-33.22L150.46-33.22L150.46-33.22Q150.46-38.53 145.34-38.53L145.34-38.53L144.77-38.53L144.77-38.53Q144.51-38.53 144.13-38.46L144.13-38.46L141.57-24.96L142.21-24.96L142.21-24.96Q150.46-25.15 150.46-33.22ZM191.81 1.28L191.81 1.28L191.81 1.28Q184.06 1.28 184.06-4.74L184.06-4.74L184.06-4.74Q184.13-6.40 184.64-9.22L184.64-9.22L185.79-15.10L185.79-15.10Q187.52-23.42 187.52-25.28L187.52-25.28L187.52-25.28Q187.52-28.99 185.34-28.99L185.34-28.99L185.34-28.99Q181.70-28.99 179.78-19.46L179.78-19.46L176 0L163.14 1.28L169.79-32.70L180.29-33.92L179.26-27.65L179.26-27.65Q182.27-33.92 191.49-33.92L191.49-33.92L191.49-33.92Q195.97-33.92 197.86-32.03L197.86-32.03L197.86-32.03Q199.74-30.14 199.74-25.92L199.74-25.92L199.74-25.92Q199.74-21.95 197.70-12.67L197.70-12.67L197.70-12.67Q196.74-8.51 196.74-6.94L196.74-6.94L196.74-6.94Q196.74-5.38 197.60-4.48L197.60-4.48L197.60-4.48Q198.46-3.58 199.74-3.46L199.74-3.46L199.74-3.46Q199.10-1.28 196.90 0L196.90 0L196.90 0Q194.69 1.28 191.81 1.28ZM209.41-26.75L209.41-26.75L209.41-26.75Q211.58-29.82 214.88-31.87L214.88-31.87L214.88-31.87Q218.18-33.92 222.21-33.92L222.21-33.92L222.21-33.92Q226.24-33.92 228.16-32.64L228.16-32.64L240.70-33.92L236.35-9.34L236.35-9.34Q234.11 3.20 229.38 8.13L229.38 8.13L229.38 8.13Q224.83 12.80 216 12.80L216 12.80L216 12.80Q209.28 12.80 205.44 10.69L205.44 10.69L205.44 10.69Q201.60 8.58 201.60 5.06L201.60 5.06L201.60 5.06Q201.60 2.43 203.58 0.93L203.58 0.93L203.58 0.93Q205.57-0.58 208.64-0.58L208.64-0.58L208.64-0.58Q211.33-0.58 213.38 0.64L213.38 0.64L213.38 0.64Q214.59 1.28 215.17 2.18L215.17 2.18L215.17 2.18Q213.70 3.46 213.70 5.57L213.70 5.57L213.70 5.57Q213.70 8.32 216.26 8.32L216.26 8.32L216.26 8.32Q220.54 8.32 222.98-1.79L222.98-1.79L222.98-1.79Q223.68-4.54 224.26-7.30L224.26-7.30L224.26-7.30Q221.38-3.78 214.85-3.78L214.85-3.78L214.85-3.78Q210.30-3.78 207.68-5.95L207.68-5.95L207.68-5.95Q205.06-8.13 205.06-13.25L205.06-13.25L205.06-13.25Q205.06-16.45 206.14-20.06L206.14-20.06L206.14-20.06Q207.23-23.68 209.41-26.75ZM217.73-13.06L217.73-13.06L217.73-13.06Q217.73-8.70 219.97-8.70L219.97-8.70L219.97-8.70Q221.50-8.70 222.98-10.37L222.98-10.37L222.98-10.37Q224.13-11.71 224.58-13.70L224.58-13.70L227.84-30.14L227.84-30.14Q227.52-30.21 227.20-30.34L227.20-30.34L227.20-30.34Q226.56-30.59 225.73-30.59L225.73-30.59L225.73-30.59Q221.82-30.59 219.52-24.19L219.52-24.19L219.52-24.19Q217.73-19.20 217.73-13.06ZM257.15 1.28L257.15 1.28L257.15 1.28Q243.07 1.28 243.07-11.97L243.07-11.97L243.07-11.97Q243.07-21.38 248.26-27.46L248.26-27.46L248.26-27.46Q253.76-33.92 263.30-33.92L263.30-33.92L263.30-33.92Q270.21-33.92 273.73-30.72L273.73-30.72L273.73-30.72Q277.25-27.52 277.25-20.80L277.25-20.80L277.25-20.80Q277.25-10.56 271.74-4.61L271.74-4.61L271.74-4.61Q266.37 1.28 257.15 1.28ZM258.82-26.56L258.82-26.56L258.82-26.56Q258.05-24.83 257.44-22.24L257.44-22.24L257.44-22.24Q256.83-19.65 256.06-15.55L256.06-15.55L256.06-15.55Q255.30-11.46 255.30-6.40L255.30-6.40L255.30-6.40Q255.30-4.74 255.84-3.65L255.84-3.65L255.84-3.65Q256.38-2.56 257.86-2.56L257.86-2.56L257.86-2.56Q259.33-2.56 260.26-3.26L260.26-3.26L260.26-3.26Q261.18-3.97 261.89-5.63L261.89-5.63L261.89-5.63Q263.17-8.58 264.19-14.05L264.19-14.05L264.19-14.05Q265.22-19.52 265.31-21.89L265.31-21.89L265.31-21.89Q265.41-24.26 265.41-26.02L265.41-26.02L265.41-26.02Q265.41-27.78 264.90-28.93L264.90-28.93L264.90-28.93Q264.38-30.08 262.94-30.08L262.94-30.08L262.94-30.08Q261.50-30.08 260.54-29.18L260.54-29.18L260.54-29.18Q259.58-28.29 258.82-26.56ZM312.45-26.62L312.45-26.62L312.45-26.62Q312.45-23.94 310.21-22.27L310.21-22.27L310.21-22.27Q307.97-20.61 304.32-20.61L304.32-20.61L304.32-20.61Q302.78-20.61 301.89-21.06L301.89-21.06L301.89-21.06Q302.59-22.72 302.82-24.80L302.82-24.80L302.82-24.80Q303.04-26.88 303.04-27.46L303.04-27.46L303.04-27.46Q303.04-30.14 301.18-30.14L301.18-30.14L301.18-30.14Q299.90-30.14 298.46-28.54L298.46-28.54L298.46-28.54Q297.02-26.94 295.81-24.45L295.81-24.45L295.81-24.45Q293.12-18.69 293.12-12.86L293.12-12.86L293.12-12.86Q293.12-9.66 294.34-8.22L294.34-8.22L294.34-8.22Q295.55-6.78 298.24-6.78L298.24-6.78L298.24-6.78Q301.95-6.78 304.90-9.86L304.90-9.86L304.90-9.86Q305.73-10.82 306.18-11.90L306.18-11.90L306.18-11.90Q308.61-10.62 308.61-7.10L308.61-7.10L308.61-7.10Q308.61-3.52 304.64-1.15L304.64-1.15L304.64-1.15Q300.54 1.28 294.02 1.28L294.02 1.28L294.02 1.28Q281.02 1.28 281.02-12.48L281.02-12.48L281.02-12.48Q281.02-22.53 286.72-28.29L286.72-28.29L286.72-28.29Q292.22-33.92 302.34-33.92L302.34-33.92L302.34-33.92Q312.45-33.92 312.45-26.62Z" fill="#eb6c6c"></path></g></g><style>text {
+  font-size: 64px;
+  font-family: Arial Black;
+  dominant-baseline: central;
+  text-anchor: middle;
+}</style></svg>
+					<!-- Kết thúc phần svg (Xóa tới đây)-->
+
+					<div class="col-12 text-center tamthu" style="font-size: 18pt;">
+
+						<!-- 3. Thay đổi cái này cho phù hợp với mục đích của bạn -->
+						<p class="parse">vhung có điều muốn nói!!</p>
+						<a href="index2.html" target="_blank"><i class="far fa-envelope lathu"
+								style="font-size: 40pt; color: #ef2a4d;"></i></a>
+					</div>
+				</div> <!-- end -->
+			</div>
+		</div>
+	</div>
+
+	<script src="javascript/charming.js"></script>
+	<script src="javascript/anime.js"></script>
+	<script src="javascript/myscript.js"></script>
+	<iframe src="./music/music.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+	<!-- Phần nhạc -->
+	<!-- Bạn tải 1 bài nhạc rồi copy vào thư mục music và thay đổi tên bài hát ở bên dưới -->
+	<audio id="player" autoplay loop>
+		<source src="./music/music.mp3" type="audio/mp3">
+	</audio>
+</body>
+
+</html>
