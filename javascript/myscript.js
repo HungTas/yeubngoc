@@ -49,7 +49,7 @@ theTime.add({
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
 		// Nội dung của nút bên dưới
-		document.querySelector('.container .sup').innerHTML= "Đừng ấn vào đâyy"
+		document.querySelector('.container .sup').innerHTML= "Đừng ấn vào đâyy";
 	}
 });
 theTime.add({
